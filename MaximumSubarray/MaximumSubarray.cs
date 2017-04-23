@@ -3,6 +3,12 @@ namespace MaximumSubarray
 {
     public class MaximumSubarray
     {
+        /*
+         * A,array
+         * lowIndex
+         * midIndex
+         * highIndex
+         */
         private static (int ,int ,int) findMaxCrossingSubarray(int[] A, int low, int mid, int high)
         {
             int leftSum = int.MinValue;
